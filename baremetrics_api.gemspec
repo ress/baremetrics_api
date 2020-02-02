@@ -27,5 +27,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'faraday',  '~> 0.9'
   spec.add_dependency 'faraday_middleware', '~> 0.11'
   spec.add_dependency 'httpclient', '~> 2.8'
-  spec.add_dependency 'activesupport', '~> 5.0'
+  spec.add_dependency 'activesupport', '>= 5.0'
 end
